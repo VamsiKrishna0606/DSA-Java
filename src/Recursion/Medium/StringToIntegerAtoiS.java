@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Medium;
 import java.util.*;
     public class StringToIntegerAtoiS {
         public static void main(String[] args) {
@@ -6,7 +6,6 @@ import java.util.*;
             String s = sc.nextLine();
             System.out.println(myAtoi(s));
         }
-
         public static int myAtoi(String s) {
             s = s.trim();
             int sign = 1, i = 0;
